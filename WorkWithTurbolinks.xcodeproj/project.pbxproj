@@ -14,6 +14,8 @@
 		2809AC9D1E8AA662002C77BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2809AC9B1E8AA662002C77BB /* LaunchScreen.storyboard */; };
 		2809ACA81E8AA662002C77BB /* WorkWithTurbolinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809ACA71E8AA662002C77BB /* WorkWithTurbolinksTests.swift */; };
 		2809ACB31E8AA662002C77BB /* WorkWithTurbolinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809ACB21E8AA662002C77BB /* WorkWithTurbolinksUITests.swift */; };
+		2809ACC11E8AA6AC002C77BB /* Turbolinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */; };
+		2809ACC21E8AA6AC002C77BB /* Turbolinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2809ACC31E8AA6AC002C77BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2809ACC21E8AA6AC002C77BB /* Turbolinks.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2809AC8F1E8AA662002C77BB /* WorkWithTurbolinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkWithTurbolinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809AC921E8AA662002C77BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 		2809ACAE1E8AA662002C77BB /* WorkWithTurbolinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkWithTurbolinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809ACB21E8AA662002C77BB /* WorkWithTurbolinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTurbolinksUITests.swift; sourceTree = "<group>"; };
 		2809ACB41E8AA662002C77BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Turbolinks.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2809ACC11E8AA6AC002C77BB /* Turbolinks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 		2809AC861E8AA662002C77BB = {
 			isa = PBXGroup;
 			children = (
+				2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */,
 				2809AC911E8AA662002C77BB /* WorkWithTurbolinks */,
 				2809ACA61E8AA662002C77BB /* WorkWithTurbolinksTests */,
 				2809ACB11E8AA662002C77BB /* WorkWithTurbolinksUITests */,
@@ -135,6 +154,7 @@
 				2809AC8B1E8AA662002C77BB /* Sources */,
 				2809AC8C1E8AA662002C77BB /* Frameworks */,
 				2809AC8D1E8AA662002C77BB /* Resources */,
+				2809ACC31E8AA6AC002C77BB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -412,11 +432,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WorkWithTurbolinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-21.WorkWithTurbolinks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,11 +448,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WorkWithTurbolinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-21.WorkWithTurbolinks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
