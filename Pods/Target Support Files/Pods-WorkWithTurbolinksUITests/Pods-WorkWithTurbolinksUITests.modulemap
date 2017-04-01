@@ -1,0 +1,6 @@
+framework module Pods_WorkWithTurbolinksUITests {
+  umbrella header "Pods-WorkWithTurbolinksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

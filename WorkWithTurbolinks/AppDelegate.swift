@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         startApplication()
         return true
     }
-    
+
     func startApplication() {
         session.delegate = self
-        visit(NSURL(string: "https://turbolinks-server.herokuapp.com/")!)
+        visit(URL: NSURL(string: "https://turbolinks-server.herokuapp.com/")!)
     }
     
     func visit(URL: NSURL) {
@@ -31,13 +31,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: SessionDelegate {
-    func session(session: Session, didProposeVisitToURL URL: NSURL, withAction action: Action) {
-        visit(URL)
+    func session(_ session: Session, didProposeVisitToURL URL: URL, withAction action: Action) {
+        visit(URL: URL as NSURL)
     }
     
-    func session(session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
-        let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-        navigationController.presentViewController(alert, animated: true, completion: nil)
+    func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
+        let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        navigationController.present(alert, animated: true, completion: nil)
     }
 }

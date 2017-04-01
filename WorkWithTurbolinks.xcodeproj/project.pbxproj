@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03EE54341371D18B89D38F88 /* Pods_WorkWithTurbolinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8883E3D4BD18BF1CCFA1CF /* Pods_WorkWithTurbolinks.framework */; };
 		2809AC931E8AA662002C77BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809AC921E8AA662002C77BB /* AppDelegate.swift */; };
 		2809AC951E8AA662002C77BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809AC941E8AA662002C77BB /* ViewController.swift */; };
 		2809AC981E8AA662002C77BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2809AC961E8AA662002C77BB /* Main.storyboard */; };
@@ -14,8 +15,8 @@
 		2809AC9D1E8AA662002C77BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2809AC9B1E8AA662002C77BB /* LaunchScreen.storyboard */; };
 		2809ACA81E8AA662002C77BB /* WorkWithTurbolinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809ACA71E8AA662002C77BB /* WorkWithTurbolinksTests.swift */; };
 		2809ACB31E8AA662002C77BB /* WorkWithTurbolinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809ACB21E8AA662002C77BB /* WorkWithTurbolinksUITests.swift */; };
-		2809ACC11E8AA6AC002C77BB /* Turbolinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */; };
-		2809ACC21E8AA6AC002C77BB /* Turbolinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		771EA9AA6B5445DCD75D989F /* Pods_WorkWithTurbolinksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FA2063F3D297468083CFE7 /* Pods_WorkWithTurbolinksTests.framework */; };
+		C393A5C467E6B4B93B10BE2A /* Pods_WorkWithTurbolinksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DC1794C7CB3458885C528C /* Pods_WorkWithTurbolinksUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2809ACC31E8AA6AC002C77BB /* Embed Frameworks */ = {
+		28991EF41E8EBA960091A347 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2809ACC21E8AA6AC002C77BB /* Turbolinks.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11DC1794C7CB3458885C528C /* Pods_WorkWithTurbolinksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkWithTurbolinksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809AC8F1E8AA662002C77BB /* WorkWithTurbolinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkWithTurbolinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809AC921E8AA662002C77BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2809AC941E8AA662002C77BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +64,14 @@
 		2809ACAE1E8AA662002C77BB /* WorkWithTurbolinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkWithTurbolinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809ACB21E8AA662002C77BB /* WorkWithTurbolinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTurbolinksUITests.swift; sourceTree = "<group>"; };
 		2809ACB41E8AA662002C77BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Turbolinks.framework; sourceTree = "<group>"; };
+		47B304AC0908768CE4C3355F /* Pods-WorkWithTurbolinks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinks.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinks/Pods-WorkWithTurbolinks.release.xcconfig"; sourceTree = "<group>"; };
+		47FA2063F3D297468083CFE7 /* Pods_WorkWithTurbolinksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkWithTurbolinksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60721C4E91D3DA831C7771FA /* Pods-WorkWithTurbolinksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinksTests/Pods-WorkWithTurbolinksTests.release.xcconfig"; sourceTree = "<group>"; };
+		7498C7A8CC4C816F4F763F45 /* Pods-WorkWithTurbolinksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinksTests/Pods-WorkWithTurbolinksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8883E3D4BD18BF1CCFA1CF /* Pods_WorkWithTurbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkWithTurbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63FD8554BFBDE558B800C6B /* Pods-WorkWithTurbolinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinks/Pods-WorkWithTurbolinks.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B6C2D64FEEF6531CB4F01A /* Pods-WorkWithTurbolinksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinksUITests/Pods-WorkWithTurbolinksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9D3D3885D15CCC8AAE0D88A /* Pods-WorkWithTurbolinksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithTurbolinksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithTurbolinksUITests/Pods-WorkWithTurbolinksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2809ACC11E8AA6AC002C77BB /* Turbolinks.framework in Frameworks */,
+				03EE54341371D18B89D38F88 /* Pods_WorkWithTurbolinks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771EA9AA6B5445DCD75D989F /* Pods_WorkWithTurbolinksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +95,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C393A5C467E6B4B93B10BE2A /* Pods_WorkWithTurbolinksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021957F5947A8A9F8AD43D9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B63FD8554BFBDE558B800C6B /* Pods-WorkWithTurbolinks.debug.xcconfig */,
+				47B304AC0908768CE4C3355F /* Pods-WorkWithTurbolinks.release.xcconfig */,
+				7498C7A8CC4C816F4F763F45 /* Pods-WorkWithTurbolinksTests.debug.xcconfig */,
+				60721C4E91D3DA831C7771FA /* Pods-WorkWithTurbolinksTests.release.xcconfig */,
+				E9D3D3885D15CCC8AAE0D88A /* Pods-WorkWithTurbolinksUITests.debug.xcconfig */,
+				E5B6C2D64FEEF6531CB4F01A /* Pods-WorkWithTurbolinksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2809AC861E8AA662002C77BB = {
 			isa = PBXGroup;
 			children = (
-				2809ACC01E8AA6AC002C77BB /* Turbolinks.framework */,
 				2809AC911E8AA662002C77BB /* WorkWithTurbolinks */,
 				2809ACA61E8AA662002C77BB /* WorkWithTurbolinksTests */,
 				2809ACB11E8AA662002C77BB /* WorkWithTurbolinksUITests */,
 				2809AC901E8AA662002C77BB /* Products */,
+				021957F5947A8A9F8AD43D9D /* Pods */,
+				E5C1F945F070C946A8E5C826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +168,16 @@
 			path = WorkWithTurbolinksUITests;
 			sourceTree = "<group>";
 		};
+		E5C1F945F070C946A8E5C826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8883E3D4BD18BF1CCFA1CF /* Pods_WorkWithTurbolinks.framework */,
+				47FA2063F3D297468083CFE7 /* Pods_WorkWithTurbolinksTests.framework */,
+				11DC1794C7CB3458885C528C /* Pods_WorkWithTurbolinksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,10 +185,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2809ACB71E8AA662002C77BB /* Build configuration list for PBXNativeTarget "WorkWithTurbolinks" */;
 			buildPhases = (
+				AC60BA7DAF3701D9BDD3C6E5 /* [CP] Check Pods Manifest.lock */,
 				2809AC8B1E8AA662002C77BB /* Sources */,
 				2809AC8C1E8AA662002C77BB /* Frameworks */,
 				2809AC8D1E8AA662002C77BB /* Resources */,
-				2809ACC31E8AA6AC002C77BB /* Embed Frameworks */,
+				28991EF41E8EBA960091A347 /* Embed Frameworks */,
+				D924CF0BDC94AFBA62B8D506 /* [CP] Embed Pods Frameworks */,
+				FCA4E6D1A2E9BB98CDC35437 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2809ACBA1E8AA662002C77BB /* Build configuration list for PBXNativeTarget "WorkWithTurbolinksTests" */;
 			buildPhases = (
+				D47B1BB434E036E4A33ADC63 /* [CP] Check Pods Manifest.lock */,
 				2809AC9F1E8AA662002C77BB /* Sources */,
 				2809ACA01E8AA662002C77BB /* Frameworks */,
 				2809ACA11E8AA662002C77BB /* Resources */,
+				FE769F5D0F2E2D6BC05E8EF4 /* [CP] Embed Pods Frameworks */,
+				C2ABDCE7E4F6F85F5BF8C7A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2809ACBD1E8AA662002C77BB /* Build configuration list for PBXNativeTarget "WorkWithTurbolinksUITests" */;
 			buildPhases = (
+				837A146A254B067E0F6C00B2 /* [CP] Check Pods Manifest.lock */,
 				2809ACAA1E8AA662002C77BB /* Sources */,
 				2809ACAB1E8AA662002C77BB /* Frameworks */,
 				2809ACAC1E8AA662002C77BB /* Resources */,
+				70B2C8986C7D73F9E971CF59 /* [CP] Embed Pods Frameworks */,
+				5EAFD7E38AF9C1F6336CEA14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +256,7 @@
 				TargetAttributes = {
 					2809AC8E1E8AA662002C77BB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = URBQ73W35Q;
 						ProvisioningStyle = Automatic;
 					};
 					2809ACA21E8AA662002C77BB = {
@@ -273,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EAFD7E38AF9C1F6336CEA14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinksUITests/Pods-WorkWithTurbolinksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B2C8986C7D73F9E971CF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinksUITests/Pods-WorkWithTurbolinksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837A146A254B067E0F6C00B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC60BA7DAF3701D9BDD3C6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ABDCE7E4F6F85F5BF8C7A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinksTests/Pods-WorkWithTurbolinksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47B1BB434E036E4A33ADC63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D924CF0BDC94AFBA62B8D506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinks/Pods-WorkWithTurbolinks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA4E6D1A2E9BB98CDC35437 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinks/Pods-WorkWithTurbolinks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE769F5D0F2E2D6BC05E8EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithTurbolinksTests/Pods-WorkWithTurbolinksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2809AC8B1E8AA662002C77BB /* Sources */ = {
@@ -375,13 +557,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = Frameworks;
 			};
 			name = Debug;
 		};
@@ -419,49 +603,81 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = Frameworks;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2809ACB81E8AA662002C77BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63FD8554BFBDE558B800C6B /* Pods-WorkWithTurbolinks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = URBQ73W35Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"\"$PODS_CONFIGURATION_BUILD-DIR/Turbolinks\"",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = WorkWithTurbolinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Turbolinks\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-21.WorkWithTurbolinks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SDKROOT = iphoneos10.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		2809ACB91E8AA662002C77BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B304AC0908768CE4C3355F /* Pods-WorkWithTurbolinks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = URBQ73W35Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"\"$PODS_CONFIGURATION_BUILD-DIR/Turbolinks\"",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = WorkWithTurbolinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Turbolinks\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-21.WorkWithTurbolinks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SDKROOT = iphoneos10.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		2809ACBB1E8AA662002C77BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7498C7A8CC4C816F4F763F45 /* Pods-WorkWithTurbolinksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,6 +692,7 @@
 		};
 		2809ACBC1E8AA662002C77BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60721C4E91D3DA831C7771FA /* Pods-WorkWithTurbolinksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +707,7 @@
 		};
 		2809ACBE1E8AA662002C77BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D3D3885D15CCC8AAE0D88A /* Pods-WorkWithTurbolinksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WorkWithTurbolinksUITests/Info.plist;
@@ -503,6 +721,7 @@
 		};
 		2809ACBF1E8AA662002C77BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B6C2D64FEEF6531CB4F01A /* Pods-WorkWithTurbolinksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WorkWithTurbolinksUITests/Info.plist;
@@ -533,6 +752,7 @@
 				2809ACB91E8AA662002C77BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2809ACBA1E8AA662002C77BB /* Build configuration list for PBXNativeTarget "WorkWithTurbolinksTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +761,7 @@
 				2809ACBC1E8AA662002C77BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2809ACBD1E8AA662002C77BB /* Build configuration list for PBXNativeTarget "WorkWithTurbolinksUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +770,7 @@
 				2809ACBF1E8AA662002C77BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

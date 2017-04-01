@@ -4,7 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WorkWithTurbolinks.xcscheme</key>
+		<key>Turbolinks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WorkWithTurbolinks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -23,6 +30,16 @@
 			<true/>
 		</dict>
 		<key>2809ACAD1E8AA662002C77BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2814EDF51E8EB54500DDC039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2814EDFD1E8EB54500DDC039</key>
 		<dict>
 			<key>primary</key>
 			<true/>
